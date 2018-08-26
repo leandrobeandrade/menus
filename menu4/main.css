@@ -1,0 +1,32 @@
+html, body {
+	margin: 0;
+	padding: 0;
+}
+input {
+	display: none;
+}
+label {
+	font-size: 30px;
+	position: fixed;
+	z-index: 2;
+	left: 10px;
+}
+i:hover {
+	cursor: pointer;
+}
+#check:checked ~ .barra-lateral {
+	transform: translate(300px);
+}
+.barra-lateral {
+	width: 300px;
+	height: 100vh;
+	position: fixed;
+	background-color: #ccc;
+	padding-top: 50px;
+	z-index: 1;
+	left: -300px;
+	transition: all .35s linear;
+}
+nav {
+	margin-left: 10px;
+}
