@@ -1,4 +1,4 @@
-**Exemplo online:** [CodeSandbox.io](https://codesandbox.io/s/menu-youtube-hkyeh)
+**Exemplo online:** [JSFiddle](https://jsfiddle.net/leandrobeandrade/a3mrszdt/)
 
 ![alt text](https://github.com/leandrobeandrade/menus/blob/master/menu4/menu-closed.png "Menu fechado")
 
