@@ -1,172 +1,24 @@
-<!DOCTYPE>
+<!DOCTYPE html>
+<html lang="pt-br">
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>Menu que muda de cor</title>
-  <link href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" type="text/css">
-  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet">
-  <link rel="stylesheet" type="text/css" href="menu.css">
+	<meta charset="UTF-8">
+	<title>Menu Youtube - 2</title>
+	<link rel="stylesheet" href="main.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
-	<header id="topo">
-		<div class="container-fluid">
-			<div class="row">
-				<div class="col-md-8">
-					<img src="Logo.png" id="logo" />
-				</div>
-				<div class="col-md-4">
-					<p id="info">(00) 0000-0000 &nbsp;
-					<a href="meu.html" target="_self"><i class="fa fa-1x fa-facebook-square fa-fw"></i></a>
-					<a href="meu.html" target="_self"><i class="fa fa-twitter-square fa-fw" id="twitter"></i></a>
-					</p>
-				</div>
-			</div>
-		</div>
-	</header> 
+	
+	<input type="checkbox" id="check">
+	<label for="check"><i class="fa fa-bars" aria-hidden="true"></i></label>
 
-	<nav id="menu">
-  		<div class="navbar">
-  			<div class="container">
-	    		<div class="navbar-header">
-	      			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#mynavbar">
-	        			<span class="icon-bar"></span>
-	        			<span class="icon-bar"></span>
-	        			<span class="icon-bar"></span> 
-	      			</button>
-	    		</div>
-	    		<div class="collapse navbar-collapse" id="mynavbar">
-	      			<ul class="nav navbar-nav">
-	        			<li><a href="#footer" class="scroll">FOOTER</a></li>
-	        			<li><a href="#topo" class="scroll">TOP</a></li>
-	        			<li><a href=".thumbs" class="scroll">THUMBS</a></li>
-	        			<li><a href=".thumb" class="scroll">THUMB</a></li>
-	        			<li><a href="#form" class="scroll">FORM</a></li>
-	        			<li><a href=".jumbotron" class="scroll">JUMBOTRON</a></li> 
-	      			</ul>      			    		
-	    		</div>
-  			</div>
-  		</div>
-	</nav>
+	<div class="barra-lateral">
+		<nav>
+			<a href=""><div>HOME</div></a>
+			<a href=""><div>SOBRE</div></a>
+			<a href=""><div>CONTATO</div></a>
+		</nav>
+	</div>
 
-	<section class="thumb">
-		<div class="container">
-			<div class="row">
-				<div class="col-sm-6 col-md-4">
-					<div class="thumbnail">
-						<img src="office-1209640_640.jpg" alt="office">
-						<div class="caption">
-							<h3>Lorem Ipsum</h3>
-							<p>Morbi a metus. Phasellus enim erat, vestibulum vel, aliquam a, posuere eu, velit. Nullam sapien sem, ornare ac, nonummy non, lobortis a, enim. Nunc tincidunt ante vitae massa.</p>
-							<p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p>
-						</div>
-					</div>
-				</div>
-				<div class="col-sm-6 col-md-4">
-					<div class="thumbnail">
-						<img src="businessman-2056022_640.jpg" alt="business">
-						<div class="caption">
-							<h3>Lorem Ipsum</h3>
-							<p>Morbi a metus. Phasellus enim erat, vestibulum vel, aliquam a, posuere eu, velit. Nullam sapien sem, ornare ac, nonummy non, lobortis a, enim. Nunc tincidunt ante vitae massa.</p>
-							<p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p>
-						</div>
-					</div>
-				</div>
-				<div class="col-sm-6 col-md-4">
-					<div class="thumbnail">
-						<img src="business-1989126_640.jpg" alt="business">
-						<div class="caption">
-							<h3>Lorem Ipsum</h3>
-							<p>Morbi a metus. Phasellus enim erat, vestibulum vel, aliquam a, posuere eu, velit. Nullam sapien sem, ornare ac, nonummy non, lobortis a, enim. Nunc tincidunt ante vitae massa.</p>
-							<p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
-
-	<section class="thumbs">		
-		<div class="container">
-			<div class="row">
-				<div class="jumbotron">
-  					<h1>Lorem Ipsum!</h1>
-  					<p>Morbi a metus. Phasellus enim erat, vestibulum vel, aliquam a, posuere eu, velit. Nullam sapien sem, ornare ac, nonummy non, lobortis a, enim. Nunc tincidunt ante vitae massa. Duis ante orci, molestie vitae, vehicula venenatis, tincidunt ac, pede. Nulla accumsan, elit sit amet varius semper, nulla mauris mollis quam, tempor suscipit diam nulla vel leo. Etiam commodo dui eget wisi. Donec iaculis gravida nulla. Donec quis nibh at felis congue commodo. Etiam bibendum elit eget erat.</p>
-  					<p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a></p>
-				</div>
-				<div class="col-xs-6 col-md-3">
-					<a href="#" class="thumbnail">
-						<img src="business-1989126_640.jpg" alt="business">
-					</a>
-					<p>Morbi a metus. Phasellus enim erat, vestibulum vel, aliquam a, posuere eu, velit. Nullam sapien sem, ornare ac, nonummy non, lobortis a, enim. Nunc tincidunt ante vitae massa.</p>
-				</div>
-				<div class="col-xs-6 col-md-3">
-					<a href="#" class="thumbnail">
-						<img src="office-1209640_640.jpg" alt="office">
-					</a>
-					<p>Morbi a metus. Phasellus enim erat, vestibulum vel, aliquam a, posuere eu, velit. Nullam sapien sem, ornare ac, nonummy non, lobortis a, enim. Nunc tincidunt ante vitae massa.</p>
-				</div>
-				<div class="col-xs-6 col-md-3">
-					<a href="#" class="thumbnail">
-						<img src="business-1989126_640.jpg" alt="business">
-					</a>
-					<p>Morbi a metus. Phasellus enim erat, vestibulum vel, aliquam a, posuere eu, velit. Nullam sapien sem, ornare ac, nonummy non, lobortis a, enim. Nunc tincidunt ante vitae massa.</p>
-				</div>
-				<div class="col-xs-6 col-md-3">
-					<a href="#" class="thumbnail">
-						<img src="office-1209640_640.jpg" alt="office">
-					</a>
-					<p>Morbi a metus. Phasellus enim erat, vestibulum vel, aliquam a, posuere eu, velit. Nullam sapien sem, ornare ac, nonummy non, lobortis a, enim. Nunc tincidunt ante vitae massa.</p>
-				</div>
-			</div>
-		</div>
-	</section>
-
-	<section id="text">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-12">
-					<p>MAURIS SUSCIPIT</p>
-				</div>
-			</div>
-		</div>
-	</section>
-
-	 <section id="form">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-8 col-md-offset-2">
-                        <form role="form">
-                            <div class="form-group">
-                                <label class="control-label" for="exampleInputEmail1">Name</label>
-                                <input class="form-control input-lg" id="exampleInputEmail1" type="text">
-                            </div>
-                            <div class="form-group">
-                                <label class="control-label" for="exampleInputPassword1">Email</label>
-                                <input class="form-control input-lg" id="exampleInputPassword1" type="email">
-                            </div>
-                            <div class="form-group">
-                                <label class="control-label">Mesage</label>
-                                <textarea class="form-control"></textarea>
-                            </div>
-                            <button type="submit" class="active btn btn-lg btn-success">Button</button>
-                        </form>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-	<footer id="footer">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-12">
-					LOREM IPSUM - Copyright © 2017
-				</div>
-			</div>
-		</div>
-	</footer>
-
-	<script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
-  	<script type="text/javascript" src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-  	<script type="text/javascript" src="menu.js" ></script>
 
 </body>
 </html>
